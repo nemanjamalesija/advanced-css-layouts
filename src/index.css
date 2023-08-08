@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
-@layer base {
-  :root {
-    /* font sizes */
-    --base-size: 1rem;
-    --scale: 1.25;
-    --h1: calc(var(--h2) * var(--scale));
-    --h2: calc(var(--h3) * var(--scale));
-    --h3: calc(var(--h4) * var(--scale));
-    --h4: calc(var(--h5) * var(--scale));
-    --h5: calc(var(--h6) * var(--scale));
-    --h6: var(--base-size);
+:root {
+  /* font sizes */
+  --base-size: 1rem;
+  --scale: 1.35;
+  --h1: calc(var(--h2-font-size) * var(--scale));
+  --h2-font-size: calc(var(--h3-font-size) * var(--scale));
+  --h3-font-size: calc(var(--h4-font-size) * var(--scale));
+  --h4-font-size: calc(var(--h5-font-size) * var(--scale));
+  --h5-font-size: calc(var(--h6-font-size) * var(--scale));
+  --h6-font-size: var(--base-size);
 
-    /* colors */
-    --color-lime-primary: #a4ffa2;
-    --color-magenta-primary: #f47dda;
-    --color-magenta-secondary: #f47dda80;
-    --color-white-primary: #ffffff;
-    --color-tan-primary: #cec5b4;
-    --color-teal-primary: #2e6d81;
-    --color-cyan-primary: #7de6f4;
-    --color-black-primary: #050d14;
-  }
+  --font-small: calc(var(--base-size) / var(--scale));
+
+  /* colors */
+  --color-lime-primary: #a4ffa2;
+  --color-magenta-primary: #f47dda;
+  --color-magenta-secondary: #f47dda80;
+  --color-white-primary: #ffffff;
+  --color-tan-primary: #cec5b4;
+  --color-teal-primary: #2e6d81;
+  --color-cyan-primary: #7de6f4;
+  --color-black-primary: #050d14;
 }
 
 html {
@@ -115,26 +115,21 @@ h1 {
 }
 
 h2 {
-  font-size: var(--h2);
+  font-size: var(--h2-font-size);
 }
 
 h3 {
-  font-size: var(--h3);
+  font-size: var(--h3-font-size);
 }
 
 h4 {
-  font-size: var(--h4);
+  font-size: var(--h4-font-size);
 }
 
 h5 {
-  font-size: var(--h5);
+  font-size: var(--h5-font-size);
 }
 
 h6 {
-  font-size: var(--h6);
-}
-
-small,
-.text_small {
-  font-size: 0.8rem;
+  font-size: var(--h6-font-size);
 }
