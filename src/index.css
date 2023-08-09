@@ -140,3 +140,20 @@ h5 {
 h6 {
   font-size: var(--h6-font-size);
 }
+
+.wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+}
+
+.header-easy {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+/*HEADER*/
+.logo {
+  max-width: 175px;
+}
