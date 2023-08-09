@@ -3,32 +3,56 @@ import React from 'react';
 const MainEasy = () => {
   return (
     <main>
-      <h1>This is Heading 1</h1>
-      <h2>This is Heading 2</h2>
-      <h3>This is Heading 3</h3>
-      <h4>This is Heading 4</h4>
-      <h5>This is Heading 5</h5>
-      <h6>This is Heading 6</h6>
+      <h1>Tour</h1>
       <p>
-        This is a paragraph. Lorem ipsum dolor sit, amet consectetur adipisicing
-        elit. Quisquam, pariatur.
+        31 July 2023
+        <br />
+        The IVY
+        <br />
+        Oakheart, CA
       </p>
-      <a href='#'>A text link by itself</a>
-      <ul>
-        <li>This is an unordered list.</li>
-        <li>Second thing.</li>
-        <li>Third thing.</li>
-      </ul>
-      <strong>Strongly emphasized text</strong>
-      <ol>
-        <li>This is an ordered list.</li>
-        <li>Second thing.</li>
-        <li>Third thing.</li>
-      </ol>
-      <em>Emphasized text</em>
-      <blockquote>
-        <p>A paragraph inside of a blockquote, said by a famous person.</p>
-      </blockquote>
+      <p>
+        02 August 2023
+        <br />
+        Club Ecstasy
+        <br />
+        Longdale, CA
+      </p>
+      <p>
+        08 August 2023
+        <br />
+        The Summit
+        <br />
+        Carran, OR
+      </p>
+      <p>
+        10 August 2023
+        <br />
+        Empire
+        <br />
+        Goldenleaf, CA
+      </p>
+      <p>
+        18 August 2023
+        <br />
+        The Thunder
+        <br />
+        Stathford, OR
+      </p>
+      <p>
+        06 September 2023
+        <br />
+        The Gate
+        <br />
+        Monmouth, WA
+      </p>
+      <p>
+        11 September 2023
+        <br />
+        Horizon
+        <br />
+        Colkirk, WA
+      </p>
     </main>
   );
 };
