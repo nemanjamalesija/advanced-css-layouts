@@ -3,53 +3,55 @@ import React from 'react';
 const MainEasy = () => {
   return (
     <main>
-      <h1>Tour</h1>
+      <h1 className='h3'>Tour</h1>
       <p>
-        31 July 2023
+        <span className='date'>31 July 2023</span>
         <br />
-        The IVY
+        <span className='club'>The IVY</span>
         <br />
         Oakheart, CA
       </p>
       <p>
-        02 August 2023
+        <span className='date'>02 August 2023</span>
         <br />
-        Club Ecstasy
+        <span className='club'>Club Ecstasy</span>
         <br />
         Longdale, CA
       </p>
       <p>
-        08 August 2023
+        <span className='date'>08 August 2023</span>
         <br />
-        The Summit
+        <span className='club'>The Summit</span>
         <br />
         Carran, OR
       </p>
       <p>
-        10 August 2023
+        <span>10 August 2023</span>
         <br />
-        Empire
+        <span className='club'>Empire</span>
         <br />
         Goldenleaf, CA
       </p>
       <p>
-        18 August 2023
+        <span className='date'>18 August 2023</span>
         <br />
-        The Thunder
-        <br />
+        <span className='club'>
+          The Thunder
+          <br />
+        </span>
         Stathford, OR
       </p>
       <p>
-        06 September 2023
+        <span>06 September 2023</span>
         <br />
-        The Gate
+        <span className='club'>The Gate</span>
         <br />
         Monmouth, WA
       </p>
       <p>
-        11 September 2023
+        <span className='date'>11 September 2023</span> className="date"
         <br />
-        Horizon
+        <span className='club'>Horizon</span>
         <br />
         Colkirk, WA
       </p>
