@@ -13,10 +13,16 @@ const HeaderEasy = () => {
         </a>
       </header>
       <div className='banner'>
-        <img
-          src='https://assets.codepen.io/296057/fem-blindfold-475.jpg'
-          alt='3 men of Magenta Lime.'
-        />
+        <picture>
+          <source
+            srcSet='https://assets.codepen.io/296057/fem-blindfold-1200.jpg'
+            media='(min-width: 800px)'
+          />
+          <img
+            src='https://assets.codepen.io/296057/fem-blindfold-475.jpg'
+            alt='3 members of Magenta Lime, wearing blindfolds.'
+          />
+        </picture>
       </div>
     </>
   );

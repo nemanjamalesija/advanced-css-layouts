@@ -49,7 +49,7 @@ const MainEasy = () => {
         Monmouth, WA
       </p>
       <p>
-        <span className='date'>11 September 2023</span> className="date"
+        <span className='date'>11 September 2023</span>
         <br />
         <span className='club'>Horizon</span>
         <br />
