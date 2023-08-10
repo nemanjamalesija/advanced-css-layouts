@@ -147,6 +147,10 @@ h6,
   font-size: var(--h6-font-size);
 }
 
+main {
+  margin-bottom: 4rem;
+}
+
 figure {
   margin: 0;
   padding: 0;
@@ -168,7 +172,6 @@ cite {
 .wrapper {
   max-width: 375px;
   margin: 0 auto;
-  border: 1px solid #fff;
 }
 
 .header-easy {
@@ -205,4 +208,10 @@ main {
 
 .star {
   width: 18px;
+}
+
+footer {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5rem;
 }
