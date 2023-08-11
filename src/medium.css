@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,300&family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,300;1,500&display=swap');
+
 @layer base {
   :root {
     --base-size: 1rem;
@@ -22,6 +26,10 @@
 
     /* fonts */
     --sans-serif: 'Poppins', sans-serif;
+    --serif: 'Cormorand Garamond', serif;
+    --cursive: 'Pacifico', cursive;
+
+    --gradient: linear-gradient(180deg, var(--black) 0%, var(--teal) 100%);
   }
   html {
     box-sizing: border-box;
@@ -33,7 +41,7 @@
   }
 
   body {
-    font-family: var(--sans-serif);
+    font-family: var(--serif);
     font-weight: 300;
     line-height: 1.75;
     background-color: var(--teal);
@@ -41,7 +49,7 @@
     font-size: var(--base-size);
     margin: 0;
     padding: 0;
-    text-align: center;
+    background: var(--gradient);
   }
 
   p {
@@ -142,6 +150,39 @@
   .club {
     color: var(--lime);
     font-size: var(--h5);
+  }
+
+  .button-primary {
+    display: inline-block;
+    width: 170px;
+    padding: 1rem 2rem;
+    border: 2px solid var(--magenta);
+    color: var(--magenta);
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .button-primary:hover {
+    border-color: var(--cyan);
+    color: var(--cyan);
+  }
+
+  .button-soldout {
+    color: var(--magenta50);
+    border-color: var(--magenta50);
+    background: linear-gradient(
+      to top right,
+      transparent calc(50% - 2px),
+      var(--magenta50),
+      transparent calc(50% + 2px)
+    );
+    pointer-events: none;
   }
 }
 
