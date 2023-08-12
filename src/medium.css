@@ -17,7 +17,7 @@
     --lime: #a4ffa2;
     --magenta: #f47dda;
     --magenta50: #f47dda80;
-    --white: #ffffff;
+    --white: #fff;
     --tan: #cec5b4;
     --teal: #2e6d81;
     --cyan: #7de6f4;
@@ -191,7 +191,7 @@
   }
 
   #top > .nav-logo > h1 a {
-    color: #fff;
+    color: var(--white);
   }
 
   #top > nav {
@@ -204,11 +204,11 @@
     margin-left: 1.4rem;
     font-family: var(--cursive);
     font-size: var(--h5);
-    color: #fff;
+    color: var(--white);
   }
 
   #top > nav li > a {
-    color: #fff;
+    color: var(--white);
   }
 
   #top > nav li > a:hover {
@@ -321,7 +321,7 @@
       display: block;
       padding: 0.5em 1em;
       text-align: center;
-      background: #fff;
+      background: var(--white);
       box-shadow: none;
       border-radius: 0.25em;
     }
@@ -504,7 +504,7 @@
 
     .featured-img {
       display: inline-block;
-      border: 1px solid #fff;
+      border: 1px solid var(--white);
     }
 
     .featured-img img {
