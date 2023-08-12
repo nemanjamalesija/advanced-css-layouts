@@ -289,11 +289,21 @@
 }
 
 @layer reviews {
-  .imggroup {
-    margin-top: 2rem;
-  }
   .star {
     width: 18px;
+  }
+
+  .featured-img {
+    display: none;
+  }
+
+  .reviews {
+    max-width: 500px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    text-align: center;
   }
 }
 
