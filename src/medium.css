@@ -23,6 +23,7 @@
     --cyan: #7de6f4;
     --black: #050d14;
     --shadow: #050d1480;
+    --grey: #adb0c0;
 
     /* fonts */
     --sans-serif: 'Poppins', sans-serif;
@@ -251,6 +252,39 @@
     font-size: var(--h4);
     font-family: var(--serif);
     margin: 1rem 0;
+  }
+}
+
+@layer tracklist {
+  table {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: var(--cursive);
+    /* remove default border from the table */
+    border-collapse: collapse;
+  }
+
+  caption {
+    visibility: collapse;
+  }
+
+  th,
+  td {
+    padding: 1rem 0;
+  }
+
+  th {
+    font-family: var(--sans-serif);
+    text-align: left;
+    border-bottom: 1px solid var(--grey);
+    color: var(--grey);
+  }
+
+  td:last-child {
+    color: var(--magenta);
+    font-family: var(--serif);
+    font-weight: 600;
   }
 }
 
