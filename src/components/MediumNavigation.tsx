@@ -17,9 +17,16 @@ const MediumNavigation = () => {
     // -->
 
     <header id='top'>
-      <h1>
-        <a href='#'>Site Title</a>
-      </h1>
+      <div className='nav-logo'>
+        <img
+          src='https://assets.codepen.io/296057/fem-maglime-logo-limebolt.svg'
+          alt='Magenta lime logo.'
+        />
+
+        <h1>
+          <a href='#'>Magenta lime</a>
+        </h1>
+      </div>
       <button type='button' id='mainMenuOpen' tabIndex={-1} hidden></button>
       <nav>
         <ul>
@@ -27,21 +34,10 @@ const MediumNavigation = () => {
             <a href='#'>Home</a>
           </li>
           <li>
-            <a href='#'>FAQ</a>
+            <a href='#'>Tour</a>
           </li>
           <li>
-            <a href='#'>Tutorial</a>
-          </li>
-          <li>
-            <a href='#'>Links</a>
-          </li>
-          <li>
-            <a href='#'>Forums</a>
-          </li>
-          <li>
-            <a href='#' className='action'>
-              Sign In
-            </a>
+            <a href='#'>Store</a>
           </li>
         </ul>
       </nav>
