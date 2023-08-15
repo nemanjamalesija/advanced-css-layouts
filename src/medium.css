@@ -319,9 +319,8 @@
     #top > nav a,
     #top > nav a.action {
       display: block;
-      padding: 0.5em 1em;
       text-align: center;
-      background: var(--white);
+      background: transparent;
       box-shadow: none;
       border-radius: 0.25em;
     }
@@ -338,10 +337,10 @@
       display: block;
       width: 100%;
       padding: 0.25em 1em;
-      margin-bottom: 0.5em;
+      padding-right: 3rem;
+      margin-bottom: 0.8rem;
       font-weight: bold;
-      background: #ace;
-      border-bottom: 1px solid #0128;
+      background: transparent;
     }
     #mainMenuOpen + nav ul:after {
       content: '\1F5D9';
